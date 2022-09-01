@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n,ans;
+clrscr();
+printf("enter the number\n");
+scanf("%d",&n);
+ans=evenodd(n);
+if(ans==0)
+printf("even");
+else
+printf("odd");
+getch();
+}
+int evenodd(n) 
+{
+if(n%2==0)
+return(0);
+else
+return(1);
+}
